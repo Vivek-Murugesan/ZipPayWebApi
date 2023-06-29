@@ -1,0 +1,21 @@
+Create Table Users
+(
+ID int primary key IDENTITY(1,1),
+EMAIL_ID nvarchar(255) NOT NULL unique,
+LAST_NAME nvarchar(255),
+FIRST_NAME nvarchar(255) NOT NULL,
+MONTHLY_SALARY DECIMAL(10,2) NOT NULL check(Monthly_Salary >= 0),
+MONTHLY_EXPENSE DECIMAL(10,2) NOT NULL check(Monthly_Expense >= 0)
+);
+
+
+Create Table Accounts
+(
+ID int primary key IDENTITY(1,1),
+[USER_ID] int foreign key references Users(ID),
+ACCOUNT_NO varchar(255) NOT NULL unique,
+CARD_NO varchar(255) NULL,
+MAX_CREDIT_LIMIT DECIMAL(10,2) NOT NULL,
+STATEMENT_DATE datetime NULL,
+DUE_AMOUNT decimal(10,2) NULL,
+);
