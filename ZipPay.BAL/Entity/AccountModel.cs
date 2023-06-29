@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ZipPayWebApp.BAL.Entity
+namespace ZipPay.BAL.Entity
 {
     public class AccountModel
     {

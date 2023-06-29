@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ZipPayWebApi.DAL\ZipPay.DAL.csproj" />
+    <ProjectReference Include="..\ZipPay.BAL\ZipPay.BAL.csproj" />
   </ItemGroup>
 
 

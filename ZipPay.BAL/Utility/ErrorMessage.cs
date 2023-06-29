@@ -1,4 +1,4 @@
-﻿namespace ZipPayWebApp.BAL.Utility
+﻿namespace ZipPay.BAL.Utility
 {
     public static class ErrorMessage
     {

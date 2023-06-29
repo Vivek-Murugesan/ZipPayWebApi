@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ZipPayWebApp.BAL.Exceptions
+namespace ZipPay.BAL.Exceptions
 {
     public class BadRequestException : Exception
     {

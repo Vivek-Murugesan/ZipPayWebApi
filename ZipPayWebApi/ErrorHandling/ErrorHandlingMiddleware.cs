@@ -2,12 +2,12 @@
 using System;
 using System.Net;
 using System.Threading.Tasks;
-using ZipPayWebApp.BAL.Exceptions;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Abstractions;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.Extensions.Logging;
+using ZipPay.BAL.Exceptions;
 
 namespace ZipPayWebApp.ErrorHandling
 {

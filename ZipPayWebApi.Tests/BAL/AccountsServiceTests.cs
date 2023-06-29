@@ -5,10 +5,10 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using ZipPay.BAL;
+using ZipPay.BAL.Entity;
+using ZipPay.BAL.Exceptions;
 using ZipPay.DAL;
-using ZipPayWebApp.BAL;
-using ZipPayWebApp.BAL.Entity;
-using ZipPayWebApp.BAL.Exceptions;
 using ZipPayWebApp.DAL.Entity;
 
 namespace ZipPayWebApi.Tests.BAL

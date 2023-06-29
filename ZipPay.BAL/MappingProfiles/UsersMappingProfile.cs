@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using ZipPayWebApp.BAL.Entity;
+using ZipPay.BAL.Entity;
 using ZipPayWebApp.DAL.Entity;
 
 namespace ZipPayWebApp.MappingProfiles

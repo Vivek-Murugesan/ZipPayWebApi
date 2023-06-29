@@ -1,4 +1,4 @@
-﻿namespace ZipPayWebApp.BAL.Entity
+﻿namespace ZipPay.BAL.Entity
 {
     public class UserModel
     {

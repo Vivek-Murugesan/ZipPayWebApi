@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using ZipPayWebApp.BAL;
-using ZipPayWebApp.BAL.Entity;
+using ZipPay.BAL;
+using ZipPay.BAL.Entity;
 
 namespace ZipPayWebApp.Controllers
 {

@@ -1,4 +1,4 @@
-﻿namespace ZipPayWebApp.BAL.Exceptions
+﻿namespace ZipPay.BAL.Exceptions
 {
    public enum ErrorCodes
     {
