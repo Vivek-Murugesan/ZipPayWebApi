@@ -5,6 +5,7 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using ZipPay.DAL;
 using ZipPayWebApp.BAL;
 using ZipPayWebApp.BAL.Entity;
 using ZipPayWebApp.BAL.Exceptions;

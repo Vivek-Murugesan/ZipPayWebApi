@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using ZipPay.DAL;
 using ZipPayWebApp.BAL;
-using ZipPayWebApp.DAL;
 
 namespace ZipPayWebApp
 {

@@ -41,6 +41,14 @@ namespace ZipPayWebApp
             //    app.UseDeveloperExceptionPage();
             //}
 
+            app.UseExceptionHandler(option =>
+            {
+                option.Use(async (context, next) =>
+                {
+                    await next();
+                });
+            });
+
             app.UseMiddleware<IErrorHandlingMiddleware>();
 
             app.UseRouting();

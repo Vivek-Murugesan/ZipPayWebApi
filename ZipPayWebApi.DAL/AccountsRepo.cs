@@ -1,8 +1,9 @@
 ﻿using ZipPayWebApp.DAL.Entity;
 using Dapper;
 using System.Collections.Generic;
+using ZipPayWebApp;
 
-namespace ZipPayWebApp.DAL
+namespace ZipPay.DAL
 {
     public interface IAccountsRepo
     {

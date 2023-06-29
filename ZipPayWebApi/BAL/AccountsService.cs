@@ -1,10 +1,9 @@
 ﻿using AutoMapper;
-using System.Collections;
 using System.Collections.Generic;
+using ZipPay.DAL;
 using ZipPayWebApp.BAL.Entity;
 using ZipPayWebApp.BAL.Exceptions;
 using ZipPayWebApp.BAL.Utility;
-using ZipPayWebApp.DAL;
 using ZipPayWebApp.DAL.Entity;
 
 namespace ZipPayWebApp.BAL
