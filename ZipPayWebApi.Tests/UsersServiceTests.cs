@@ -11,7 +11,7 @@ using ZipPay.BAL.Exceptions;
 using ZipPay.DAL;
 using ZipPayWebApp.DAL.Entity;
 
-namespace ZipPayWebApi.Tests.BAL
+namespace ZipPayWebApi.Tests
 {
     public class UsersServiceTests
     {
